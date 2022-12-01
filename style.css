@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Generics*/
+
 body{
     font-family: 'Fredoka One', cursive;
     font-family: 'Kanit', sans-serif;
@@ -13,7 +15,7 @@ body{
     width: 100%;
 }
 
-/* General*/
+/* Utilis*/
 
 .profile{
     background-color: #0F0E17;
@@ -32,4 +34,9 @@ body{
 
 address{
     display: inline-block;
+}
+
+a{
+    display: inline-block
+;
 }
