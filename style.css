@@ -5,3 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+/* General*/
+
+.profile{
+    background-color: #0F0E17;
+    color: white;
+    max-width: 350px;
+   
+}
+
+.detail{
+    
+}
+
+.imgfloat{
+    float: left;
+}
+
+address{
+    display: inline-block;
+}
