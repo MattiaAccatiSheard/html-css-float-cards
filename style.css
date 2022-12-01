@@ -10,33 +10,48 @@
 
 body{
     font-family: 'Fredoka One', cursive;
-    font-family: 'Kanit', sans-serif;
     text-align: center;
     width: 100%;
 }
 
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 /* Utilis*/
+
+h1{
+    color: #E52D6C;
+}
+
+.row{
+    margin: 0 auto;
+}
 
 .profile{
     background-color: #0F0E17;
     color: white;
-    max-width: 350px;
-   
+    max-width: 450px; 
+    float: left;
+    margin: 1rem;
 }
 
-.detail{
-    
+.profile::after{
+    clear: both;
+    content: '';
+    display: table;
 }
 
 .imgfloat{
     float: left;
 }
 
-address{
-    display: inline-block;
+.detail {
+    float: left;
+    padding-left: 15px;
+    padding-top: 0px;
+    text-align: left;
+    margin-top: 20px;
 }
 
-a{
-    display: inline-block
-;
-}
